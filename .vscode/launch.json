@@ -1,0 +1,16 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+      {
+          "name": "Manim: Current File (Preview, Low Quality, Quiet)",
+          "type": "python",
+          "request": "launch",
+          "module": "manim",
+          "console": "integratedTerminal",
+          "args": [
+              "${fileBasenameNoExtension}.py",
+              "-pql"
+          ]
+      }
+  ]
+}
